@@ -1,7 +1,14 @@
+
+
+
+
+
+
+
 #gameBoard {
-	width: 60%;
-	height: auto;
-	left: 200px;
+	width: 700px; 
+	height: 500px; 
+	margin: 0px auto -1px auto;	
 	bottom: 100px;
 	top: 100px;
 	background: grey;
@@ -10,7 +17,6 @@
 	padding-right: auto;
 	padding-bottom:30px;
 	border-radius: 12px;
-	position: absolute; 
 }	
 
 .gamePiece {
@@ -26,9 +32,16 @@
 
 }
 
+header {
+	border: 1px solid black;
+}
+
 footer {
-	float: left;
-	position: fixed;
-	bottom: 10px;
+		border: 1px solid black;
+		
+}
+
+#ghLink {
+	text-align: right;
 }
 
