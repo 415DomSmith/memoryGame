@@ -27,31 +27,32 @@ header {
 	margin-bottom: -10px;
 	color: white;
 }
-footer {		
-		margin-top: -30px;
-		color: white;
-		font-size: 12px;		
-}
 ul {
 	color: white;
 	background-color: auto;
 	position: absolute;
 	font-size: 10px;
-	margin-left: 980px;
+	margin-left: 1050px;
 }
 #ghLink {
 	text-align: right;
-	margin-top: -20px;
+	margin-top: -35px;
+	margin-right: 20px;
 }
 #resetButton {
-	margin-left:  -100px;
+	margin-left: 960px;
+	margin-top: 10px;
 	position: absolute;
 }
-
 a:link {
 	color: white;
 }
-
 a:visited{
   color: white;
+}
+footer {		
+		
+		color: white;
+		font-size: 11px;
+		text-align: left;		
 }
