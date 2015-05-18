@@ -2,16 +2,18 @@
 
 
 
-
+body {
+	background-color: black
+}
 
 
 #gameBoard {
-	width: 700px; 
-	height: 500px; 
+	width: 730px; 
+	height: 540px; 
 	margin: 0px auto -1px auto;	
 	bottom: 100px;
 	top: 100px;
-	background: grey;
+	background-color: grey;
 	padding-left: auto;
 	padding-top:10px;
 	padding-right: auto;
@@ -19,29 +21,27 @@
 	border-radius: 12px;
 }	
 
-.gamePiece {
-	background-color: white;
-  width: 160px;
-  height: 110px;
-  border: 1px solid black;
- 	float: left;
- 	padding-left: 10px;
- 	padding-top: 10px;
- 	margin-left: 15px;
- 	margin-top: 15px;
-
+h2 {
+	color: white;
+	text-align: center;
 }
 
 header {
 	border: 1px solid black;
+	margin-top: -15px;
+	margin-bottom: -10px;
+	color: white;
 }
 
 footer {
 		border: 1px solid black;
+		color: white;
 		
 }
 
 #ghLink {
 	text-align: right;
+	margin-top: -35px;
+
 }
 
