@@ -7,10 +7,11 @@ body {
 }
 
 
+
 #gameBoard {
 	width: 730px; 
 	height: 540px; 
-	margin: 0px auto -1px auto;	
+	margin: -10px auto -1px auto;	
 	bottom: 100px;
 	top: 100px;
 	background-color: grey;
@@ -24,24 +25,51 @@ body {
 h2 {
 	color: white;
 	text-align: center;
+	margin-top: -10px
 }
 
 header {
 	border: 1px solid black;
-	margin-top: -15px;
+	margin-top: -20px;
 	margin-bottom: -10px;
 	color: white;
 }
 
 footer {
-		border: 1px solid black;
+		
+		margin-top: -30px;
 		color: white;
+		font-size: 12px;
+		
 		
 }
 
-#ghLink {
-	text-align: right;
-	margin-top: -35px;
+ul {
+	color: white;
+	background-color: auto;
+	position: absolute;
+	font-size: 10px;
+	margin-left: 980px;
 
 }
 
+
+#ghLink {
+	
+	text-align: right;
+	margin-top: -20px;
+
+}
+
+#resetButton {
+	margin-left:  -100px;
+	position: absolute;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited{
+  color: white;
+}
