@@ -2,7 +2,9 @@
 body {
 	background-color: black
 }
-
+h1{
+	text-align: center;
+}
 #gameBoard {
 	width: 730px; 
 	height: 540px; 
